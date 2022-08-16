@@ -15,7 +15,7 @@ const CounterViewer = () => {
         Count: {count}
       </h1>
 
-      <div className="flex items-center justify-center gap-6 mt-10 text-white">
+      <div className="flex flex-wrap items-center justify-center gap-6 mt-10 text-white">
         <button
           onClick={() => dispatch(increment())}
           className="px-6 py-2 bg-rose-500 rounded text-base font-medium hover:bg-rose-600"
