@@ -8,11 +8,7 @@ export const counterSlice = createSlice({
       state.count = state.count + 1;
     },
     decrement: (state) => {
-      if (state.count > 0) {
-        return (state.count = state.count - 1);
-      } else {
-        return (state.count = 0);
-      }
+      state.count = state.count - 1;
     },
     reset: (state) => {
       state.count = 0;
